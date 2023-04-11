@@ -6,8 +6,13 @@ Pour effectuer nos différentes analyse, nous avons appliquer des filtres globau
 
 Rem: nous avons utilisé linux pour que le traffic soit plus restreint
 
+commande : 
 
-exemple de connexion établie :
+```
+nestat -np --inet | grep zoom
+```
+
+Exemple de connexion établie :
 
 ```
 tcp        0      0 192.168.182.72:43988    206.247.69.16:443       ESTABLISHED 4521/zoom           
