@@ -9,7 +9,7 @@ Rem: nous avons utilisé linux pour que le traffic soit plus restreint
 
 exemple de connexion établie :
 
-
+```
 tcp        0      0 192.168.182.72:43988    206.247.69.16:443       ESTABLISHED 4521/zoom           
 tcp        0      0 192.168.182.72:43020    170.114.11.104:443      ESTABLISHED 4521/zoom           
 tcp        0      0 192.168.182.72:43994    206.247.69.16:443       ESTABLISHED 4521/zoom           
@@ -23,3 +23,4 @@ tcp        0      0 192.168.182.72:44028    206.247.69.16:443       ESTABLISHED 
 tcp        0      0 192.168.182.72:33118    170.114.14.62:443       ESTABLISHED 4521/zoom           
 
 ip.addr == 206.247.69.16 or ip.addr == 170.114.11.104 or ip.addr == 170.114.52.5 or ip.addr == 170.114.15.194 or ip.addr == 170.114.14.62
+```
